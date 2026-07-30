@@ -1,0 +1,80 @@
+# Query: BOXEO
+# ContextLines: 1
+
+17 results - 10 files
+
+README.md:
+  92  - `descripcion` → una descripción corta.
+  93: - `categoria` → debe ser una de las categorías ya definidas arriba del archivo (Boxeo, Latin KO, etc.)
+  94  - `youtubeId` → el identificador del video de YouTube. Lo obtienes de la URL del video:
+
+app/layout.tsx:
+  16  const descripcion =
+  17:   "Productora mexicana especializada en producción de televisión, transmisiones deportivas, streaming profesional y producción de boxeo. Producción multicámara para México y el mundo.";
+  18  
+
+  21    "streaming deportivo",
+  22:   "producción de boxeo",
+  23    "transmisiones deportivas",
+
+app/producciones/page.tsx:
+   9  const descripcion =
+  10:   "Explora el catálogo completo de transmisiones deportivas, funciones de boxeo, entrevistas y producciones especiales de En Vivo Digital.";
+  11  
+
+components/About.tsx:
+  18              <p>
+  19:               Desde una función de boxeo hasta una transmisión internacional, cada producción se realiza
+  20                con el compromiso de llevar al público una experiencia clara, dinámica y emocionante.
+
+components/ContactForm.tsx:
+  10  const tiposDeEvento = [
+  11:   "Función de boxeo",
+  12    "Evento deportivo",
+
+components/StructuredData.tsx:
+  29        "Streaming profesional",
+  30:       "Producción de boxeo",
+  31        "Producción multicámara",
+
+data/liveConfig.ts:
+  17    youtubeId: "jfKfPfyJRdk", // ID del video/stream de YouTube en vivo
+  18:   nombreEvento: "Noche de Campeones — Función Estelar de Boxeo",
+  19    descripcionEvento:
+
+  23    proximoEvento: {
+  24:     nombre: "Noche de Campeones — Función Estelar de Boxeo",
+  25      // Formato ISO: "AAAA-MM-DDTHH:mm:ss" (hora local de Ciudad de México)
+
+data/services.ts:
+  7    { titulo: "Transmisiones deportivas", descripcion: "Cobertura integral de eventos deportivos con ritmo y emoción de televisión.", icono: "Trophy" },
+  8:   { titulo: "Producción de boxeo", descripcion: "Nuestra especialidad: funciones de box con calidad cinematográfica.", icono: "Swords" },
+  9    { titulo: "Repeticiones instantáneas", descripcion: "Sistema de replay para revivir cada momento clave al instante.", icono: "Repeat" },
+
+data/successCases.ts:
+  6      cliente: "[Cliente provisional 1]",
+  7:     tipoDeProduccion: "Función de boxeo profesional",
+  8      numeroDeCamaras: "6 cámaras",
+
+data/videos.ts:
+   28  export const CATEGORIAS = [
+   29:   "FUNCIONES COMPLETAS",
+   30    "PROCIONALES",
+
+   41      id: "Ooj3-qXKSMA&t=11562s",
+   42:     titulo: "Función Estelar de Boxeo — Cartelera Completa",
+   43      descripcion: "Transmisión completa de la velada de box con narración y comentarios en vivo.",
+   44:     categoria: "Boxeo",
+   45      miniatura: "",
+
+   50      titulo: "Función estelar en Veracruz",
+   51:     descripcion: "El boxeo femenil de primer nivel regresa a Veracruz",
+   52      categoria: "Promocionales",
+
+  106      titulo: "Noches de Boxeo en el Foro San Rafael",
+  107:     descripcion: "Función de nuevos valores montada por LC Promotions.",
+  108      categoria: "Promocionales",
+
+  115      descripcion: "Transmisión deportiva producida en locación con equipo multicámara.",
+  116:     categoria: "Boxeo",
+  117      miniatura: "",

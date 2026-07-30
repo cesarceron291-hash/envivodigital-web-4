@@ -17,7 +17,7 @@ export const siteConfig = {
 
   // Video de fondo del Hero. Reemplaza el archivo en /public/videos/hero-bg.mp4
   // por tu propio video (recomendado: MP4, H.264, menos de 15 MB, sin audio).
-  heroVideo: "/videos/hero-bg.mp4",
+  heroVideo: "/videos/hero.mp4",
   heroPoster: "/images/hero-poster.jpg", // imagen que se ve mientras carga el video
 
   // Video institucional de la seccion "Quienes somos" (ID de YouTube)

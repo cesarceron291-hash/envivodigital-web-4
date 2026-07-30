@@ -1,0 +1,2 @@
+Coloca aquí tu video de fondo con el nombre exacto: hero-bg.mp4
+Recomendado: formato MP4 (H.264), sin audio, menos de 15 MB, resolución 1920x1080.

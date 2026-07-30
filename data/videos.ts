@@ -68,7 +68,41 @@ descripcion: "Función completa producida por En Vivo Digital.",
 categoria: "Funciones completas",
 miniatura: "",
 youtubeId: "K7mpYANh5HI",
-  },
+  }{
+  id: "semblanza-01",
+  titulo: "Semblanza",
+  descripcion: "Historias que inspiran dentro y fuera del ring.",
+  categoria: "Semblanzas",
+  miniatura: "",
+  youtubeId: "6gXmcPOwjNY",
+},
+
+{
+  id: "semblanza-02",
+  titulo: "Semblanza",
+  descripcion: "Conoce la trayectoria de grandes protagonistas del boxeo.",
+  categoria: "Semblanzas",
+  miniatura: "",
+  youtubeId: "GUXkyZE4bTA",
+},
+
+{
+  id: "semblanza-03",
+  titulo: "Semblanza",
+  descripcion: "Documentales y perfiles exclusivos producidos por En Vivo Digital.",
+  categoria: "Semblanzas",
+  miniatura: "",
+  youtubeId: "Pw4LrAUNGH4",
+},
+
+{
+  id: "semblanza-04",
+  titulo: "Semblanza",
+  descripcion: "Las historias que merecen ser contadas.",
+  categoria: "Semblanzas",
+  miniatura: "",
+  youtubeId: "EAB6nv5DhuU",
+},
   {
     id: "video-05",
     titulo: "Entrevista Exclusiva — Campeón Mundial",

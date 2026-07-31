@@ -16,9 +16,8 @@ export default function Hero() {
         playsInline
         preload="auto"
       />
-<div className="absolute inset-0 bg-gradient-dark" />
+      <div className="absolute inset-0 bg-gradient-dark" />
 <div className="absolute inset-0 bg-gradient-radial-red" />
-
 <div className="relative z-10 mx-auto flex max-w-6xl flex-col items-center px-5 text-center animate-fadeInUp sm:px-6">
   <span className="mb-4 rounded-full border border-brand-red/50 bg-black/40 px-3 py-1.5 text-[10px] font-bold uppercase tracking-[0.16em] text-brand-red backdrop-blur-sm sm:mb-5 sm:px-4 sm:text-xs sm:tracking-[0.18em]">
     Producción de TV • Streaming profesional • Eventos deportivos

@@ -15,15 +15,15 @@ export const liveConfig = {
 
   // --- Datos usados cuando activo = true ---
   youtubeId: "jfKfPfyJRdk", // ID del video/stream de YouTube en vivo
-  nombreEvento: "Noche de Campeones — Función Estelar de Boxeo",
+  nombreEvento: "Próxima Producción En Vivo",
   descripcionEvento:
     "Transmisión en vivo desde la Arena Ciudad de México. Cartelera completa con comentarios y repeticiones instantáneas.",
 
   // --- Datos usados cuando activo = false (proxima transmision) ---
   proximoEvento: {
-    nombre: "Noche de Campeones — Función Estelar de Boxeo",
+    nombre: "Próxima Producción En Vivo",
     // Formato ISO: "AAAA-MM-DDTHH:mm:ss" (hora local de Ciudad de México)
     fecha: "2026-09-12T21:00:00",
-    videoPromocionalYoutubeId: "dQw4w9WgXcQ",
+    videoPromocionalYoutubeId: "K6dIU0OosQY",
   },
 };

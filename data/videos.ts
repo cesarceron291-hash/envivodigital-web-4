@@ -26,14 +26,13 @@ import { Video } from "@/types";
  */
 
 export const CATEGORIAS = [
- "Funciones completas",
+ "Funciones Completas",
   "Semblanzas",
   "Tras Las Cuerdas",
-  "Producciones especiales",
+  "Producciones Especiales",
   "Entrevistas",
-  "Eventos completos",
-  "Mejores momentos",
-  "Contenido reciente",
+  "Reportajes",
+  "Sports Queens",
 ] as const;
 
 export const videos: Video[] = [
@@ -103,6 +102,176 @@ youtubeId: "K7mpYANh5HI",
   categoria: "Semblanzas",
   miniatura: "",
   youtubeId: "EAB6nv5DhuU",
+},{
+  id: "tras-cuerdas-01",
+  titulo: "Tras Las Cuerdas",
+  descripcion: "Programa de análisis, entrevistas y actualidad del boxeo.",
+  categoria: "Tras Las Cuerdas",
+  miniatura: "",
+  youtubeId: "9IszwioR9e4",
+},
+
+{
+  id: "tras-cuerdas-02",
+  titulo: "Tras Las Cuerdas",
+  descripcion: "Los protagonistas del boxeo cuentan su historia.",
+  categoria: "Tras Las Cuerdas",
+  miniatura: "",
+  youtubeId: "cCg6twf8VTw",
+},
+
+{
+  id: "tras-cuerdas-03",
+  titulo: "Tras Las Cuerdas",
+  descripcion: "Análisis, debate y entrevistas exclusivas.",
+  categoria: "Tras Las Cuerdas",
+  miniatura: "",
+  youtubeId: "8ORygCHeJoo",
+},
+
+{
+  id: "tras-cuerdas-04",
+  titulo: "Tras Las Cuerdas",
+  descripcion: "Todo lo que ocurre dentro y fuera del ring.",
+  categoria: "Tras Las Cuerdas",
+  miniatura: "",
+  youtubeId: "BjctRKKPBXk",
+},{
+  id: "produccion-especial-01",
+  titulo: "Producción Especial",
+  descripcion: "Contenido especial producido por En Vivo Digital.",
+  categoria: "Producciones especiales",
+  miniatura: "",
+  youtubeId: "Pwn5TMafsKQ",
+},
+
+{
+  id: "produccion-especial-02",
+  titulo: "Producción Especial",
+  descripcion: "Una producción original con narrativa y realización profesional.",
+  categoria: "Producciones especiales",
+  miniatura: "",
+  youtubeId: "OMln6wA-Ths",
+},
+
+{
+  id: "produccion-especial-03",
+  titulo: "Producción Especial",
+  descripcion: "Historias y contenidos creados para televisión y plataformas digitales.",
+  categoria: "Producciones especiales",
+  miniatura: "",
+  youtubeId: "xK8r4kqrTRg",
+},
+
+{
+  id: "produccion-especial-04",
+  titulo: "Producción Especial",
+  descripcion: "Una muestra del trabajo creativo y técnico de En Vivo Digital.",
+  categoria: "Producciones especiales",
+  miniatura: "",
+  youtubeId: "req84vzMRDw",
+},{
+  id: "entrevista-01",
+  titulo: "Entrevista Exclusiva",
+  descripcion: "Conversaciones con los protagonistas del deporte.",
+  categoria: "Entrevistas",
+  miniatura: "",
+  youtubeId: "5sIYCunvQsw",
+},
+
+{
+  id: "entrevista-02",
+  titulo: "Entrevista Exclusiva",
+  descripcion: "Historias, anécdotas y testimonios en primera persona.",
+  categoria: "Entrevistas",
+  miniatura: "",
+  youtubeId: "oPAh5sSoj3w",
+},
+
+{
+  id: "entrevista-03",
+  titulo: "Entrevista Exclusiva",
+  descripcion: "Las voces más importantes del boxeo y el deporte.",
+  categoria: "Entrevistas",
+  miniatura: "",
+  youtubeId: "ZS2dOz9OW8U",
+},
+
+{
+  id: "entrevista-04",
+  titulo: "Entrevista Exclusiva",
+  descripcion: "Contenido exclusivo realizado por En Vivo Digital.",
+  categoria: "Entrevistas",
+  miniatura: "",
+  youtubeId: "g0d9JuNyORs",
+},{
+  id: "reportaje-01",
+  titulo: "Reportaje Especial",
+  descripcion: "Historias que muestran el lado humano del deporte.",
+  categoria: "Reportajes",
+  miniatura: "",
+  youtubeId: "Xnekxuauhx4",
+},
+
+{
+  id: "reportaje-02",
+  titulo: "Reportaje Especial",
+  descripcion: "Coberturas y reportajes producidos por En Vivo Digital.",
+  categoria: "Reportajes",
+  miniatura: "",
+  youtubeId: "er3nCJrkpTk",
+},
+
+{
+  id: "reportaje-03",
+  titulo: "Reportaje Especial",
+  descripcion: "Contenido periodístico con calidad de televisión.",
+  categoria: "Reportajes",
+  miniatura: "",
+  youtubeId: "ZK8SKA2Kkk4",
+},
+
+{
+  id: "reportaje-04",
+  titulo: "Reportaje Especial",
+  descripcion: "Historias que merecen ser contadas.",
+  categoria: "Reportajes",
+  miniatura: "",
+  youtubeId: "OAPo7wOdBZ4",
+},{
+  id: "sports-queens-01",
+  titulo: "Sports Queens",
+  descripcion: "Las protagonistas del deporte en una producción original de En Vivo Digital.",
+  categoria: "Sports Queens",
+  miniatura: "",
+  youtubeId: "u1UabaBQYyc",
+},
+
+{
+  id: "sports-queens-02",
+  titulo: "Sports Queens",
+  descripcion: "Entrevistas e historias con las grandes figuras del deporte femenil.",
+  categoria: "Sports Queens",
+  miniatura: "",
+  youtubeId: "G0ecz0pr7OY",
+},
+
+{
+  id: "sports-queens-03",
+  titulo: "Sports Queens",
+  descripcion: "Contenido original con una visión diferente del deporte.",
+  categoria: "Sports Queens",
+  miniatura: "",
+  youtubeId: "66y3Xa54StQ",
+},
+
+{
+  id: "sports-queens-04",
+  titulo: "Sports Queens",
+  descripcion: "Producciones exclusivas realizadas por En Vivo Digital.",
+  categoria: "Sports Queens",
+  miniatura: "",
+  youtubeId: "D_sFLk-Ev1U",
 },
   {
     id: "video-05",

@@ -68,7 +68,8 @@ descripcion: "Función completa producida por En Vivo Digital.",
 categoria: "Funciones completas",
 miniatura: "",
 youtubeId: "K7mpYANh5HI",
-  }{
+},
+{
   id: "semblanza-01",
   titulo: "Semblanza",
   descripcion: "Historias que inspiran dentro y fuera del ring.",

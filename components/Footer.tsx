@@ -2,71 +2,164 @@ import Link from "next/link";
 import { Facebook, Instagram, Youtube } from "lucide-react";
 import { siteConfig } from "@/data/siteConfig";
 
-// Formato "/#seccion": funciona igual desde el inicio (scroll) que desde
-// una página interior (navega al inicio y luego hace scroll).
 const enlaces = [
-  { href: "/#inicio", label: "Inicio" },
-  { href: "/#nosotros", label: "Nosotros" },
-  { href: "/#servicios", label: "Servicios" },
-  { href: "/#producciones", label: "Producciones" },
-  { href: "/#clientes", label: "Clientes" },
-  { href: "/#en-vivo", label: "En vivo" },
-  { href: "/#contacto", label: "Contacto" },
+  { href: "/#inicio", label: "INICIO" },
+  { href: "/#nosotros", label: "NOSOTROS" },
+  { href: "/#servicios", label: "SERVICIOS" },
+  { href: "/#producciones", label: "PRODUCCIONES" },
+  { href: "/#clientes", label: "CLIENTES" },
+  { href: "/#en-vivo", label: "EN VIVO" },
+  { href: "/#contacto", label: "CONTACTO" },
 ];
 
-// Enlaces adicionales a páginas interiores (no forman parte del menú principal).
-const enlacesInternos = [{ href: "/producciones", label: "Catálogo completo de producciones" }];
+const enlacesInternos = [
+  {
+    href: "/producciones",
+    label: "CATÁLOGO COMPLETO DE PRODUCCIONES",
+  },
+];
 
 export default function Footer() {
   const anio = new Date().getFullYear();
 
   return (
     <footer className="border-t border-brand-line bg-black px-5 pb-8 pt-16 sm:px-8">
-      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 sm:grid-cols-3">
+      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-12 sm:grid-cols-3">
+        {/* MARCA */}
         <div>
-          <span className="font-sans text-xl font-black tracking-tight text-white">
-            EN VIVO<span className="text-brand-red"> DIGITAL</span>
+          <span className="font-sans text-xl font-black uppercase tracking-tight text-white">
+            EN VIVO
+            <span className="text-brand-red"> DIGITAL</span>
           </span>
-          <p className="mt-3 max-w-xs text-sm text-brand-muted">{siteConfig.eslogan}</p>
-          <div className="mt-5 flex gap-4">
-            <a href={siteConfig.redes.facebook} aria-label="Facebook" className="text-brand-muted hover:text-white"><Facebook className="h-5 w-5" /></a>
-            <a href={siteConfig.redes.instagram} aria-label="Instagram" className="text-brand-muted hover:text-white"><Instagram className="h-5 w-5" /></a>
-            <a href={siteConfig.redes.youtube} aria-label="YouTube" className="text-brand-muted hover:text-white"><Youtube className="h-5 w-5" /></a>
-            <a href={siteConfig.redes.tiktok} aria-label="TikTok" className="text-sm font-bold text-brand-muted hover:text-white">TikTok</a>
+
+          <p className="mt-4 max-w-xs text-sm font-medium uppercase leading-7 text-brand-muted">
+            PRODUCCIONES DEPORTIVAS CON ESTÁNDARES DE TELEVISIÓN.
+          </p>
+
+          <div className="mt-6 flex items-center gap-5">
+            <a
+              href={siteConfig.redes.facebook}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Facebook"
+              className="text-brand-muted transition-colors hover:text-white"
+            >
+              <Facebook className="h-5 w-5" />
+            </a>
+
+            <a
+              href={siteConfig.redes.instagram}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+              className="text-brand-muted transition-colors hover:text-white"
+            >
+              <Instagram className="h-5 w-5" />
+            </a>
+
+            <a
+              href={siteConfig.redes.youtube}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="YouTube"
+              className="text-brand-muted transition-colors hover:text-white"
+            >
+              <Youtube className="h-5 w-5" />
+            </a>
+
+            <a
+              href={siteConfig.redes.tiktok}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="TikTok"
+              className="text-sm font-black uppercase text-brand-muted transition-colors hover:text-white"
+            >
+              TIKTOK
+            </a>
           </div>
         </div>
 
+        {/* NAVEGACIÓN */}
         <div>
-          <h4 className="mb-4 text-xs font-bold uppercase tracking-wide text-white/70">Navegación</h4>
-          <ul className="space-y-2">
+          <h4 className="mb-5 text-xs font-bold uppercase tracking-[0.2em] text-white/70">
+            NAVEGACIÓN
+          </h4>
+
+          <ul className="space-y-3">
             {enlaces.map((enlace) => (
               <li key={enlace.href}>
-                <Link href={enlace.href} className="text-sm text-brand-muted hover:text-white">{enlace.label}</Link>
+                <Link
+                  href={enlace.href}
+                  className="text-sm font-medium uppercase text-brand-muted transition-colors hover:text-white"
+                >
+                  {enlace.label}
+                </Link>
               </li>
             ))}
+
             {enlacesInternos.map((enlace) => (
               <li key={enlace.href}>
-                <Link href={enlace.href} className="text-sm text-brand-muted hover:text-white">{enlace.label}</Link>
+                <Link
+                  href={enlace.href}
+                  className="text-sm font-medium uppercase text-brand-muted transition-colors hover:text-white"
+                >
+                  {enlace.label}
+                </Link>
               </li>
             ))}
           </ul>
         </div>
 
+        {/* CONTACTO */}
         <div>
-          <h4 className="mb-4 text-xs font-bold uppercase tracking-wide text-white/70">Contacto</h4>
-          <ul className="space-y-2 text-sm text-brand-muted">
-            <li>{siteConfig.contacto.telefono}</li>
-            <li>{siteConfig.contacto.correo}</li>
-            <li>{siteConfig.contacto.ciudad}</li>
+          <h4 className="mb-5 text-xs font-bold uppercase tracking-[0.2em] text-white/70">
+            CONTACTO
+          </h4>
+
+          <ul className="space-y-4 text-sm font-medium uppercase text-brand-muted">
+            <li>
+              <a
+                href="tel:+525534256604"
+                className="transition-colors hover:text-white"
+              >
+                +52 55 3425 6604
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="mailto:cesarceron291@gmail.com?subject=Cotización%20En%20Vivo%20Digital"
+                className="break-all transition-colors hover:text-white"
+              >
+                CESARCERON291@GMAIL.COM
+              </a>
+            </li>
+
+            <li>CIUDAD DE MÉXICO, MÉXICO</li>
           </ul>
         </div>
       </div>
 
-      <div className="mx-auto mt-12 flex max-w-7xl flex-col items-center justify-between gap-4 border-t border-brand-line pt-6 text-xs text-brand-muted sm:flex-row">
-        <p>© {anio} En Vivo Digital. Todos los derechos reservados.</p>
-        <div className="flex gap-5">
-          <Link href="/aviso-de-privacidad" className="hover:text-white">Aviso de privacidad</Link>
-          <Link href="/terminos-y-condiciones" className="hover:text-white">Términos y condiciones</Link>
+      {/* PIE INFERIOR */}
+      <div className="mx-auto mt-12 flex max-w-7xl flex-col items-center justify-between gap-4 border-t border-brand-line pt-6 text-xs font-medium uppercase text-brand-muted sm:flex-row">
+        <p>
+          © {anio} EN VIVO DIGITAL. TODOS LOS DERECHOS RESERVADOS.
+        </p>
+
+        <div className="flex flex-wrap justify-center gap-5">
+          <Link
+            href="/aviso-de-privacidad"
+            className="transition-colors hover:text-white"
+          >
+            AVISO DE PRIVACIDAD
+          </Link>
+
+          <Link
+            href="/terminos-y-condiciones"
+            className="transition-colors hover:text-white"
+          >
+            TÉRMINOS Y CONDICIONES
+          </Link>
         </div>
       </div>
     </footer>

@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
+import LiveExperienceSection from "@/components/LiveExperienceSection";
 import Philosophy from "@/components/Philosophy";
 import Services from "@/components/Services";
 import Productions from "@/components/Productions";
@@ -20,6 +21,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <About />
+      <LiveExperienceSection />
       <Philosophy />
       <Services />
       <Productions />

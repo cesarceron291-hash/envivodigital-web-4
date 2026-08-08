@@ -13,7 +13,7 @@ const productions = [
     commentators:
       "Eduardo Camarena, Juan Manuel Márquez, Rafael Márquez y Jackie Nava",
     production: "En Vivo Digital",
-    videoId: "GL_wjBs7dF4",
+    videoId: "GNBRETnT2XI",
   },
   {
     title: "Boxeo de Alto Impacto",
@@ -35,7 +35,7 @@ const productions = [
     broadcaster: "Multimedios Canal 6",
     commentators: "Francisco Pérez y Ramsés Morales",
     production: "En Vivo Digital",
-    videoId: "GNBRETnT2XI",
+    videoId: "Khx16NRCnYw",
   },
   {
     title: "Puro Golpe Mexicano",
@@ -46,10 +46,9 @@ const productions = [
     broadcaster: "Showy TV",
     commentators: "Felipe Bravo y Gustavo Torrero",
     production: "En Vivo Digital",
-    videoId: "Khx16NRCnYw",
+    videoId: "GL_wjBs7dF4",
   },
 ];
-
 export default function LiveExperienceSection() {
   const [activeIndex, setActiveIndex] = useState(0);
 

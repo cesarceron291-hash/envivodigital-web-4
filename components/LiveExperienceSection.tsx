@@ -16,7 +16,7 @@ const productions = [
     videoId: "GNBRETnT2XI",
   },
   {
-    title: "Boxeo de Alto Impacto",
+    title: "title: "Puro Golpe Mexicano",
     promoter: "Astur Boxing",
     venue: "Arena Coliseo",
     location: "Ciudad de México",
@@ -38,7 +38,7 @@ const productions = [
     videoId: "Khx16NRCnYw",
   },
   {
-    title: "Puro Golpe Mexicano",
+    title: "Boxeo de Alto Impacto ",
     promoter: "Pacha Producciones",
     venue: "Plaza Paseo Ventura",
     location: "Ecatepec, Estado de México",

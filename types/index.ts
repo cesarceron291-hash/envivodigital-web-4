@@ -34,6 +34,7 @@ export interface MiembroEquipo {
   nombre: string;
   cargo: string;
   descripcion: string;
+  semblanza: string;
   foto: string;
   redes: {
     instagram?: string;

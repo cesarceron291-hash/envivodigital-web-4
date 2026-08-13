@@ -26,11 +26,11 @@ export default function Home() {
       <Services />
       <Productions />
       <LiveSection />
-      <Clients />
-      <SuccessCases />
       <Experience />
       <Team />
       <Coverage />
+      <Clients />
+      <SuccessCases />
       <CommercialCTA />
       <Contact />
       <Footer />

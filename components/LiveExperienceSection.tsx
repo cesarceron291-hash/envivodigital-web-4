@@ -16,7 +16,7 @@ const productions = [
     videoId: "GNBRETnT2XI",
   },
   {
-    title: "title: "Puro Golpe Mexicano",
+    title: "Puro Golpe Mexicano",
     promoter: "Astur Boxing",
     venue: "Arena Coliseo",
     location: "Ciudad de México",
